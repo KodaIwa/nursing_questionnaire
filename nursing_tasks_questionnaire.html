@@ -253,12 +253,7 @@
             <td width="5%">統合セル</td>
             <!-- <td width="21%" colspan="2">統合セル</td> -->
             <td width="10%">
-              <img
-                src="時間スケール.png"
-                alt="時間スケール"
-                width="190"
-                height="140"
-              />
+              <img src="時間スケール.png" alt="時間スケール" width="190" height="140"/>
             </td>
             <td width="15%">
               <img src="情報源.png" alt="情報源" width="125" height="150" />
@@ -269,38 +264,8 @@
             <td width="10%">
               <img src="優先順位.png" alt="優先順位" width="180" height="160" />
             </td>
-            <td width="10%">
-              <img
-                src="優先順位0ver.png"
-                alt="優先順位"
-                width="180"
-                height="160"
-              />
-            </td>
           </tr>
 
-          <tr>
-            <td width="16%">統合セル</td>
-            <td width="5%">統合セル</td>
-            <td width="10%" style="text-align: left">
-              A：1~5分<br />B：6～10分<br />C：11～15分<br />D：16～20分<br />E：21～25分<br />F：26分以上
-            </td>
-            <td width="10%" style="text-align: left">
-              A：1~5分　 　B：6～10分<br />C：11～15分　D：16～20分<br />E：21～25分　F：26分以上
-            </td>
-            <td width="15%" style="text-align: left">
-              A：電子カルテ<br />B：病棟のルール<br />C：患者の状態
-            </td>
-            <td width="10%" style="text-align: left">
-              5：難しい<br />4：やや難しい<br />3：どちらともいえない<br />2：あまり難しくない<br />1：難しくない
-            </td>
-            <td width="10%" style="text-align: left">
-              5：優先する<br />4：やや優先する<br />3：どちらともいえない<br />2：あまり優先しない<br />1：優先しない
-            </td>
-            <td width="10%" style="text-align: left">
-              2：優先する<br />1：やや優先する<br />0：どちらともいえない<br />-1：あまり優先しない<br />-2：優先しない
-            </td>
-          </tr>
         </thead>
 
         <tbody v-for="task_names in nursing_all_tasks()" :key="task_names">

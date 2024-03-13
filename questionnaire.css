@@ -1,0 +1,39 @@
+<style>
+      h1 {
+        line-height: 1;
+      }
+      h2 {
+        line-height: 1;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        /* table-layout: fixed; */
+        border: 1px solid black; /* 境界線の設定 */
+      }
+
+      th {
+        background-color: lightblue; /* 見出しセルの背景色を灰色に設定 */
+        text-align: center; /* テキストの中央寄せ */
+        padding: 10px; /* セル内の余白設定 */
+      }
+
+      /* tbody tr:nth-child(even) {
+        background-color: #f2f2f2; 偶数業の背景色を変える
+      } */
+
+      tr:hover {
+        background-color: #ddd; /* マウスオーバー時に行の背景色を灰色に設定 */
+      }
+
+      td {
+        text-align: center; /* セル内のテキストを中央揃え */
+        padding: 6px; /* セル内の余白調整 */
+      }
+
+      textarea {
+        font-size: 1rem;
+        letter-spacing: 1px;
+      }
+    </style>
